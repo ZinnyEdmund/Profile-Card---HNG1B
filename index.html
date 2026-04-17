@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+
+</head>
+<body>
+
+<article data-testid="test-profile-card" class="card">
+
+  <figure class="avatar-wrap">
+    <img id="avatar" data-testid="test-user-avatar" alt="User avatar" />
+  </figure>
+
+  <div class="content">
+
+    <header>
+      <h2 data-testid="test-user-name" id="name"></h2>
+    </header>
+
+    <p data-testid="test-user-bio" id="bio"></p>
+
+    <div data-testid="test-user-time" aria-live="polite" id="time"></div>
+
+    <nav data-testid="test-user-social-links" id="socials"></nav>
+
+    <section>
+      <h3>Hobbies</h3>
+      <ul data-testid="test-user-hobbies" id="hobbies"></ul>
+    </section>
+
+    <section>
+      <h3>Dislikes</h3>
+      <ul data-testid="test-user-dislikes" id="dislikes"></ul>
+    </section>
+
+  </div>
+
+</article>
+
+<script src="index.js"></script>
+</body>
+</html>
