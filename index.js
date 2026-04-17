@@ -1,9 +1,9 @@
 const profile = {
-  name: "Zinny",
+  name: "Ezinne Edmund",
   bio: "Frontend developer building accessible interfaces and scalable UI systems.",
   avatar: "./images/dp.jpg",
-  socials: [    { name: "twitter", url: "https://twitter.com" },
-    { name: "github", url: "https://github.com" },
+  socials: [    { name: "twitter", url: "https://twitter.com/Zinny_Edmund" },
+    { name: "github", url: "https://github.com/ZinnyEdmund" },
     { name: "linkedin", url: "https://linkedin.com" }
   ],
   hobbies: ["Coding", "Music", "Reading docs"],
