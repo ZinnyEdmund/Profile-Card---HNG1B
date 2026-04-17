@@ -1,4 +1,4 @@
- Profile Card
+ ## Profile Card
 
 Testable, accessible, responsive profile card component.
 
